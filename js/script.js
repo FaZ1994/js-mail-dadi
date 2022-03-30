@@ -35,6 +35,10 @@ const player2 = "Giocatore 2";
 
 // funzione per lanciare i dadi
 
+
+const button = document.getElementsByTagName('button');
+button[0].addEventListener('click',rollTheDice)
+
 function rollTheDice() {
 
   // genero due numeri casuali da 1 a 6
